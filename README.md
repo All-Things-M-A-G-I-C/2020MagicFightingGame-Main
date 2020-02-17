@@ -3,9 +3,6 @@
 The main repository for the 2020 MAGIC Fighting Game <br /><br />
 This is a game being developed by the MAGIC(Maker and Game Inventors Club) Organization from Minnesota State University - Mankato
 <br />
-
-<hr />
-<h1> Developers </h1>
 <h2> The following dependencies are needed for the project: </h2>
 
 | Name  | Version | Description                                         | Location |
