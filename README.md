@@ -14,11 +14,11 @@ This is a game being developed by the MAGIC(Maker and Game Inventors Club) Organ
 
 <hr />
 
-## Contributors
+# Contributors
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.optum.com/dcloning"><img src="https://github.optum.com/avatars/u/39?" width="100px;" alt="Cloninger, David W"/><br /><sub><b>David Cloninger</b></sub></a><br /><a href="https://www.flowdock.com/app/private/200077" title="Code">💬</a></td>
+    <td align="center"><a href="https://github.com/agrabowska"><img src="https://avatars0.githubusercontent.com/u/31863991?s=400&v=4" width="100px;" alt="Grabowska, Andrew"/><br /><sub><b>Andrew Grabowska</b></sub></a><br /><a href="https://www.flowdock.com/app/private/200077" title="Code">💬</a></td>
     <td align="center"><a href = "https://github.optum.com/rseibe1"><img src="https://github.optum.com/avatars/u/15?" width="100px;" alt="Seibert, Richard J"/><br /><sub><b>RJ Seibert</b></sub></a><br /><a href = "https://www.flowdock.com/app/private/258911" title="Code">💬</a></td>
     <td align="center"><a href="https://github.optum.com/mmaday"><img src="https://github.optum.com/avatars/u/14?" width="100px;" alt="Maday, Marcus"/><br /><sub><b>Maday, Marcus</b></sub></a><br /><a href="https://www.flowdock.com/app/private/397541" title="Code">💬</a></td>
     <td align="center"><a href="https://lmgtfy.com/?q=Use+3+before+me"><img src="https://github.optum.com/avatars/u/171?" width="100px;" alt="Sites, Ryan"/><br /><sub><b>Sites, Ryan</b></sub></a><br /><a href="https://www.flowdock.com/app/private/334083" title="Code">💬</a></td>
