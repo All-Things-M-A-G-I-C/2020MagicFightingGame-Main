@@ -8,6 +8,7 @@ This is a game being developed by the MAGIC(Maker and Game Inventors Club) Organ
 
 | Name  | Version | Description                                         | Location |
 | ----- | ------- | --------------------------------------------------- | -------- |
+| Unity | 2019.2 | Base engine used for development | TBD |
 | Wwise | TBD     | Dynamic audio mixes that bypass need for programmer | TBD      |
 
 <hr />
