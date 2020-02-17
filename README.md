@@ -1,5 +1,6 @@
 # 2020MagicFightingGame-Main
-The main repository for the 2020 MAGIC Fighting Game
+The main repository for the 2020 MAGIC Fighting Game <br />
+This is a game being developed by the MAGIC(Maker and Game Inventors Club) Organization from Minnesota State University - Mankato
 
 
 <hr />
