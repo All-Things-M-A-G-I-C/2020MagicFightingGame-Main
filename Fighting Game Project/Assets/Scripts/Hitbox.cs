@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Hitbox : BaseHitbox
 {
+
+    //This class controls the players hitbox that detects if they are hit by an attack.
+
+
     // Start is called before the first frame update
     void Start()
     {
