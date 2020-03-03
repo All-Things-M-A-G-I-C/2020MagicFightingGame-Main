@@ -58,6 +58,7 @@ public class player : MonoBehaviour
         if(myController.aButtonPressed)
         {
             TestAttack(myCharacter.lightAttack);
+            TestAttack(myCharacter.mediumAttack);
         }
     }
 
