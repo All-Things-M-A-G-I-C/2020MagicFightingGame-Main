@@ -37,6 +37,8 @@ public class ControllerScript : MonoBehaviour
     bool L2Pressed;
     bool R2Pressed;
 
+    
+
     void Start()
     {
         manager = transform.parent.GetComponent<ControllerManagerScript>();
@@ -51,6 +53,8 @@ public class ControllerScript : MonoBehaviour
         string bButtonName = "";
         string cButtonName = "";
         string dButtonName = "";
+
+
         foreach (KeyValuePair<int, string[]> entry in manager.buttonNames)
         {
             string axis = "";

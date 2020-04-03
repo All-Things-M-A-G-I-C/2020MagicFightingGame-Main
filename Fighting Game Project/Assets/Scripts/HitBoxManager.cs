@@ -27,14 +27,57 @@ public class HitBoxManager : MonoBehaviour
         
     }
 
-    public void SpawnAttackHitbox(GameObject parent, Vector3 position, Vector2 dimensions,float duration,int damage)
+    //Spawns a hitbox for a character's attack which eventually despawns
+    //Takes a parent who casting the attack, location of the center of the attack, and dimensions of the hitbox.
+    public void SpawnAttackHitbox(GameObject parent, Vector3 position, Vector2 dimensions,float duration,int damage, Vector2 knockbackDirection,int knockbackForce,int energyGain)
     {
+        bool reverse = false;
+        if (parent.Equals(player1))
+        {
+            if (player1.transform.position.x <= player2.transform.position.x)
+            {
+                reverse = false;
+            }
+
+            else if (player1.transform.position.x > player2.transform.position.x)
+            {
+                reverse = true;
+            }
+        }
+        else if(parent.Equals(player2))
+        {
+            if (player2.transform.position.x <= player1.transform.position.x)
+            {
+                reverse = false;
+            }
+
+            else if (player2.transform.position.x > player1.transform.position.x)
+            {
+                reverse = true;
+            }
+        }
+        
         GameObject temp = Instantiate(anAttack);
-        temp.transform.position = position;
+        if (!reverse)
+        {
+            temp.transform.localPosition = position;
+            temp.GetComponent<AttackBox>().reverse = false;
+        }
+        else
+        {
+            temp.transform.localPosition = new Vector3(-position.x,position.y,position.z);
+            temp.GetComponent<AttackBox>().reverse = true;
+
+        }
         temp.GetComponent<AttackBox>().myParent = parent;
         temp.GetComponent<AttackBox>().dimensions = dimensions;
         temp.GetComponent<AttackBox>().SetDimensions();
         temp.GetComponent<AttackBox>().damage = damage;
+        temp.GetComponent<AttackBox>().knockbackDirection = knockbackDirection;
+        temp.GetComponent<AttackBox>().knockbackForce = knockbackForce;
+        temp.GetComponent<AttackBox>().energyGain = energyGain;
+
+
         temp.transform.parent = parent.transform;
 
         Destroy(temp, duration);
